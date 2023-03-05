@@ -25,5 +25,3 @@ Seuraavaksi lisäsin tietokantaan testidataa kyselyitä varten:
 Lopuksi loin viisi kyselyä joiden kuvaukset ja koodi löytyvät alta:
 
 [Kyselyt](queries.sql)
-
-## Arviointi
