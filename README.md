@@ -6,14 +6,24 @@ Harjoitustyöni aiheena oli tehdä yksinkertaistettu relaatiotietokanta versio k
 
 Aloitin tehtävän tekemisen hahmottelemalla paperille kunkin taulun ja sen sisältämät ominaisuudet.
 
-Tämän jälkeen tutustuin ERDPlus-sovellukseen ja aloin laatimaan ER-kaaviota josta taulujen väliset suhteet käyvät ilmi.
+Tämän jälkeen tutustuin ERDPlus-sovellukseen ja aloin laatimaan ER-kaaviota josta taulujen väliset suhteet käyvät ilmi:
 
 ![alt text](/er-kaavio.png)
 
-Relaatiokaavion loin suoraan kääntämällä ER-kaaviosta. Tässä kohtaa lisäsin myös rajoitteet ja varmistin primary- ja foreign-avainten oikeellisuuden.
+Relaatiokaavion loin suoraan kääntämällä ER-kaaviosta. Tässä kohtaa lisäsin myös rajoitteet, kuten tekstisyötteiden pituudet, päivämäärät, sekä estin null-arvot ja varmistin primary- ja foreign-avainten oikeellisuuden:
 
 ![alt text](/relaatiokaavio.png)
 
-Generoin tietokannan luomiseen vaadittavan skriptin suoraan relaatiokaavion pohjalta.
+Generoin taulujen luomiseen vaadittavan skriptin suoraan relaatiokaavion pohjalta:
 
-Seuraavaksi
+[Tietokannan luominen](create_tables.sql)
+
+Seuraavaksi lisäsin tietokantaan testidataa kyselyitä varten:
+
+[Datan lisäys](insert_data.sql)
+
+Lopuksi loin viisi kyselyä joiden kuvaukset ja koodi löytyvät alta:
+
+[Kyselyt](queries.sql)
+
+## Arviointi
